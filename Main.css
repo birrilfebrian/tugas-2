@@ -1,0 +1,56 @@
+/*css hanya untuk mempercantik web, penulisan css yaitu pertama "selector"{} disetiap akhir value di akhiri dengan tanda ";"*/
+/*ini untuk mengatur margin dan mengubah font*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*ini adalah selector tipe class topnav
+  untuk value itu berada tepat setelah ":" */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  /*penulisan warna bisa menggunakan #kode , atau langsung nama warna dalam bahasa inggris*/
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav ,a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  /*ini untuk membuat tombol berubah warna saat di arahkan cursos*/
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .form{
+    color:#ddd;
+    position: relative;
+    left:50px;
+  }
+
+  .box1{
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 1000px;
+    height: 500px;
+    padding: 30px;
+    background-color: rgb(53, 58, 53);
+    box-sizing: border-box;
+
+ /*ini merupakan vendor prefix, untuk membuat tampilannya tidak berbeda meski user tidak memperbaharui browsernya*/
+
+    -webkit-box-sizing: border-box; /*ini untuk browser berbasis webkit seperti chrome dan safari*/
+    -moz-box-sizing: border-box;  /*ini untuk mozilla*/
+    -o-box-sizing: border-box;  /*ini untuk opera */
+    -ms-box-sizing: border-box; /*ini untuk internet expplorer*/   
+      }
